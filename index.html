@@ -3,28 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maria E. Viteri - Portfolio</title>
+    <title>Maria's Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Maria E. Viteri</h1>
-        <p>Software Engineer | Web Developer | Cybersecurity Enthusiast</p>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section>
-        <h2>Welcome to My Portfolio</h2>
-        <p>Explore my work, read my blog, and contact me for collaboration.</p>
-    </section>
 
+
+    <main>
+        <section id="home" class="hero-section">
+            <img src="images/Subject.png" alt="Hero image of me" class="hero-image">
+            <h1>Welcome to My Website</h1>
+            <p>Scroll to explore...</p>
+        </section>
+    
+        <section id="about">
+          <h2>About Us</h2>
+          <p>[Your story, mission, team intro/bio]</p>
+        </section>
+    
+        <section id="work">
+          <h2>Our Services</h2>
+          <p>[List of services offered: Branding, Web Dev, Diseño y Publicidad, Producion Visual: Fotografia Publicitaria o corporativa, Fotografia de Producto, Producion de video. Advising/consulting]</p>
+        </section>
+    
+        <section id="projects">
+          <h2>Portfolio</h2>
+          <p>[Marcas, Video & fotography]</p>
+        </section>
+    
+        <section id="contact">
+          <h2>Contacto</h2>
+        
+          <div class="contact-info">
+            <p><strong>Correo Electrónico:</strong> <a href="mailto:infonostraluna@gmail.com">infonostraluna@gmail.com</a></p>
+            <p><strong>Teléfono:</strong> <a href="tel:+12034490925">203-449-0925</a></p>
+          </div>
+        
+          <h3>Formulario Nuevos Clientes</h3>
+          <form>
+            <label for="name">Nombre:</label><br />
+            <input type="text" id="name" name="name" required /><br />
+        
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" required /><br />
+        
+            <label for="message">Mensaje:</label><br />
+            <textarea id="message" name="message" required></textarea><br />
+        
+            <label for="project">Tipo de Proyecto:</label><br />
+            <input type="text" id="project" name="project" required /><br />
+        
+            <button type="submit">Enviar</button>
+          </form>
+        </section>
+        
+    </main>
+
+    
     <footer>
-        <p>&copy; 2025 Maria E. Viteri | <a href="contact.html">Contact Me</a></p>
+        <p>&copy; 2025 Maria E. Viteri </a></p>
     </footer>
 
 </body>
